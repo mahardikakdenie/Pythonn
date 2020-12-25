@@ -54,3 +54,17 @@ hasil_Mod = me % you
 print("a =",me ,"b =", you ,"Operator : ( MOD ) :")
 print(me,"MOD",you, " = ",hasil_Mod)
 
+# Operasi floor division //
+hasil_floo = me // you 
+print("a =",me ,"b =", you ,"Operator : ( // ) :")
+print(me,"//",you, " = ",hasil_floo)
+
+# prioritas Operasi 
+
+hasil_Operasi = me ** you * me + you / me - you % me // you
+print("a =",me ,"b =", you ,"Operator : ( ^ ) :")
+print("----------------------")
+print(me, "**" ,you ,"*" ,me," +" ,you, "/", me," - ",you, "%", me ,"//",you)
+print("Hasilnya ", " = ",hasil_Pangkat)
+
+
