@@ -20,6 +20,10 @@ class Hero :
     @armor.setter
     def armor(self,input):
         self.__armor = input
+    
+    @armor.deleter
+    def armor(self):
+        self.__armor = None
 
 print("Merubah Info")
 sniper = Hero("Sniper",100,10)
@@ -30,4 +34,7 @@ print(sniper.armor)
 print(sniper.__dict__)
 sniper.armor = 20
 print(sniper.armor)
+
+print("Delete Armor : ")
+del sniper.armor 
 print(sniper.__dict__)
